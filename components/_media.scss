@@ -1,0 +1,21 @@
+.media {
+  justify-content: center;
+  align-items: center;
+}
+.media__video {
+  width: 100%;
+}
+.my_work {
+  font-size: var(--font-size-65);
+  font-family: var(--font-family-raleway);
+  font-weight: var(--font-weight-semi-bold);
+}
+.video__loop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.1;
+  z-index: -1;
+}
